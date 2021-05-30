@@ -1,0 +1,9 @@
+-De forma aleatoria, dandole a recargar la pagina, pone un error con titulo "g is not defined" 
+este error lo he estado buscando por varios lugares de internet (foros y documentacion oficial), pero 
+solo he encontrado que debo downgrade la versión de gatsby a usar
+    Adjunto un enlace de la discusión para mayor entendimiento https://github.com/reduxjs/react-redux/issues/904
+Cuando esto ocurre, algunas clases de boostrap (como las del dropdown) no funcionan correctamente
+
+- A pesar de estar todos los links de las paginas realizados, no permite la navegacion local entre paginas,
+se ha probado a usar varias herramientas y modulos como Link, a, LinkComponent.... 
+Sin embargo, la navegacion a paginas externas (terminos y condiciones por ejemplo) funcionan correctamente
