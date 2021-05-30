@@ -1,0 +1,157 @@
+/* GENERAL */
+html {
+  font-size: 22px;
+}
+
+
+body {
+  margin: 0px;
+  background-color: #8f744b;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url("../images/jay-mantri-TFyi0QOx08c-unsplash.jpg");
+}
+
+img {
+  height: auto;
+  width: 12em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* IDIOMA */
+.idioma, .filtro {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #5fb662 !important;
+  border: none !important;
+  outline: none;
+  cursor: pointer;
+}
+
+.idioma > img {
+  width: 1.25em;
+  cursor: pointer;
+}
+
+body[lang=es] [lang]:not([lang=es]), body[lang=en] [lang]:not([lang=en]) {
+  display: none;
+}
+
+/* CABECERA */
+.cabecera {
+  height: auto;
+  background-color: #bbe4a7;
+  border-bottom: 2px solid #87ac7e;
+  padding: 1em 0.5em 1em 0.5em;
+}
+
+/* REPRODUCTOR */
+.reproductor > img {
+  width: 1.5em;
+  cursor: pointer;
+}
+
+/* DROPDOWN */
+.dropbutton {
+  background-color: #5fb662 !important;
+  color: white;
+  border: none !important;
+  outline: none;
+  cursor: pointer;
+}
+
+.ruta_dropdown {
+  width: 80%;
+  margin: 5% auto;
+  z-index: 99 !important;
+}
+
+.dropdown-item {
+  display: inline-block !important;
+}
+
+/* BANNER JOIN US / UNETE A NSOTROS */
+
+.joinus {
+  margin: 0px 10%;
+  text-align: center;
+  background-color: #bbe4a7;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.joinus:hover {
+  cursor: pointer;
+}
+
+.titulo_joinus {
+  font-size: 2.5em;
+}
+
+.subtitulo_joinus {
+  font-style: italic;
+}
+
+/* CONTENIDO */
+.apartado {
+  padding: 0.5em 1em 0.5em 1em;
+  margin: 5%;
+  text-align: center;
+  background-color: rgba(146, 223, 146, 0.5);
+}
+
+.apartado > img {
+  width: 75%;
+}
+
+.nombre_ruta {
+  font-size: 1.25em;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #bbe4a7;
+  border-top: 2px solid #87ac7e;
+  padding: 1em 0px 1em 0px;
+}
+
+@media (min-width: 550px) {
+  html {
+    font-size: 18px;
+  }
+  .dropdown {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .ruta_dropdown {
+    width: initial;
+    top: 5%;
+    margin: 1em 0px 0px 5%;
+  }
+  .idioma, .filtro {
+    position: absolute;
+    top: 1em;
+    z-index: 99;
+  }
+
+  .idioma {
+
+    left: 3%;
+
+  }
+
+  .filtro {
+    right: 3%;
+  }
+
+  .joinus {
+    margin: 0px 30%;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
